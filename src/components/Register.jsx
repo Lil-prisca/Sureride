@@ -28,8 +28,11 @@ const Register = () => {
       status: "pending",
     });
     setLoading(false);
-    if (!error) setSubmitted(true);
-    else alert("Something went wrong. Please try again.");
+if (!error) setSubmitted(true);
+else {
+  console.error("Supabase error:", error);
+  alert(`Error: ${error.message}`);
+}
   };
 
   return (
