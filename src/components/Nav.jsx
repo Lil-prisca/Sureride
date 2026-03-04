@@ -58,7 +58,7 @@ const Nav = () => {
           }}
         >
           <span>
-            <img className="" src={surelogo} alt=" logo" />
+            <img className="w-50 h-fit" src={surelogo} alt=" logo" />
           </span>
           {/* <span style={{ color: "#1e293b" }}>Sure</span> */}
           {/* <span className="text-gradient">Ride</span> */}
