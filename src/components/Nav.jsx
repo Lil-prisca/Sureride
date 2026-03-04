@@ -53,12 +53,11 @@ const Nav = () => {
           style={{
             fontWeight: 800,
             fontSize: "1.7rem",
-            letterSpacing: "-0.02em",
           }}
         >
-          <span>
-            <img src="../assets/logo.png" alt=" logo" />
-          </span>
+          <div>
+            <img className="" src="../assets/logo.png" alt=" logo" />
+          </div>
           {/* <span style={{ color: "#1e293b" }}>Sure</span> */}
           {/* <span className="text-gradient">Ride</span> */}
         </div>
