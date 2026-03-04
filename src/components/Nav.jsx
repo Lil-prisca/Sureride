@@ -31,7 +31,7 @@ const Nav = () => {
         transition: "all 0.4s",
         ...(scrolled
           ? {
-              background: "rgba(0,0,0,0.4)",
+              background: "rgba(255,255,255,0.6)",
               backdropFilter: "blur(20px)",
               WebkitBackdropFilter: "blur(20px)",
               borderBottom: "1px solid rgba(255,255,255,0.65)",
