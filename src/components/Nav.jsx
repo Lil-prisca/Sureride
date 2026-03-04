@@ -57,10 +57,9 @@ const Nav = () => {
             fontSize: "1.7rem",
           }}
         >
-          <div>
+          <span>
             <img className="" src={surelogo} alt=" logo" />
-            <img src={reactlogo} alt="react" />
-          </div>
+          </span>
           {/* <span style={{ color: "#1e293b" }}>Sure</span> */}
           {/* <span className="text-gradient">Ride</span> */}
         </div>
