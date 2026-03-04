@@ -75,7 +75,7 @@ const WhyInvest = () => {
             }}
           >
             <span className="text-gradient-dark">Why Invest With </span>
-            <span className="text-gradient">Sure Ride?</span>
+            <span className="text-gradient">Sure Ride Mobility?</span>
           </h2>
           <p
             style={{

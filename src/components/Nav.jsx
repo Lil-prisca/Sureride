@@ -56,6 +56,9 @@ const Nav = () => {
             letterSpacing: "-0.02em",
           }}
         >
+          <span>
+            <img src="../../public/logo.png" alt="" />
+          </span>
           <span style={{ color: "#1e293b" }}>Sure</span>
           <span className="text-gradient">Ride</span>
         </div>

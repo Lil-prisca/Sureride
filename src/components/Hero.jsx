@@ -98,7 +98,7 @@ const Hero = () => (
         }}
       >
         Invest in motorcycles, earn monthly commission, stay completely
-        hands-free. Just Ride handles everything — you just collect.
+        hands-free. Sure Ride Mobility handles everything — you just collect.
       </p>
 
       {/* CTAs */}

@@ -28,11 +28,11 @@ const Register = () => {
       status: "pending",
     });
     setLoading(false);
-if (!error) setSubmitted(true);
-else {
-  console.error("Supabase error:", error);
-  alert(`Error: ${error.message}`);
-}
+    if (!error) setSubmitted(true);
+    else {
+      console.error("Supabase error:", error);
+      alert(`Error: ${error.message}`);
+    }
   };
 
   return (
@@ -333,9 +333,10 @@ else {
                   margin: "0 auto 1.5rem",
                 }}
               >
-                Thanks for your interest in Just Ride. Our team will reach out
-                within <strong style={{ color: "#334155" }}>24 hours</strong> to
-                walk you through everything.
+                Thanks for your interest in Sure Ride Mobility. Our team will
+                reach out within{" "}
+                <strong style={{ color: "#334155" }}>24 hours</strong> to walk
+                you through everything.
               </p>
               <div
                 className="glass-red"
@@ -352,7 +353,7 @@ else {
                     fontWeight: 500,
                   }}
                 >
-                  🏍️ Welcome to the Just Ride family!
+                  🏍️ Welcome to the Sure Ride Mobility family!
                 </p>
               </div>
             </div>

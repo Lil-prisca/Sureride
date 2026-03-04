@@ -5,9 +5,10 @@ const Footer = () => (
       <div className="font-display font-bold text-[1.5rem]">
         <span className="text-[#334155]">Sure </span>
         <span className="text-gradient">Ride</span>
+        {/* add image instead of teext */}
       </div>
       <p className="text-[#94a3b8] text-[0.85rem]">
-        © 2025 Sure Ride Nigeria. All rights reserved.
+        © 2025 Sure Ride Mobility Nigeria. All rights reserved.
       </p>
       <p className=" text-[#94a3b8] text-[0.75rem] max-w-65 items-center ">
         Investments involve risk. Commission figures are projections and not
