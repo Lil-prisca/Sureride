@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import surelogo from "../assets/logo.png";
+import reactlogo from "../assets/react.svg";
 
 const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -56,8 +58,8 @@ const Nav = () => {
           }}
         >
           <div>
-            <img className="" src="../assets/logo.png" alt=" logo" />
-            <img src="../assets/react.svg" alt="react" />
+            <img className="" src={surelogo} alt=" logo" />
+            <img src={reactlogo} alt="react" />
           </div>
           {/* <span style={{ color: "#1e293b" }}>Sure</span> */}
           {/* <span className="text-gradient">Ride</span> */}
