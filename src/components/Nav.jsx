@@ -57,10 +57,10 @@ const Nav = () => {
           }}
         >
           <span>
-            <img src="../../public/logo.png" alt="" />
+            <img src="../../public/logo.png" alt=" logo" />
           </span>
-          <span style={{ color: "#1e293b" }}>Sure</span>
-          <span className="text-gradient">Ride</span>
+          {/* <span style={{ color: "#1e293b" }}>Sure</span> */}
+          {/* <span className="text-gradient">Ride</span> */}
         </div>
 
         {/* Desktop links */}
